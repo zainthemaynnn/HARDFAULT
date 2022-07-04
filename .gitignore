@@ -1,0 +1,19 @@
+# Project place file
+bruhs_place.rbxl
+
+# Roblox Studio lock files
+*.rbxlx.lock
+*.rbxl.lock
+
+# selene
+selene.toml
+roblox.toml
+
+# data
+resources/
+Packages/
+DevPackages/
+
+# sublime
+*.sublime-project
+*.sublime-workspace

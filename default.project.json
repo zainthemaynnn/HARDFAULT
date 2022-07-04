@@ -1,0 +1,77 @@
+{
+  "name": "bruhs_place",
+
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src\\ReplicatedStorage",
+
+      "Packages": {
+        "$path": "Packages",
+
+        "Zone": {
+          "$path": "lib\\Zone"
+        },
+
+        "RaycastHitbox": {
+          "$path": "lib\\RaycastHitboxV4"
+        },
+
+        "PartCache": {
+          "$path": "lib\\PartCache"
+        },
+
+        "BehaviorTreeCreator": {
+          "$path": "lib\\BehaviorTree3"
+        }
+      }
+    },
+
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$path": "src\\ReplicatedFirst"
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src\\ServerScriptService"
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src\\StarterPlayer\\StarterPlayerScripts"
+      },
+
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$path": "src\\StarterPlayer\\StarterCharacterScripts"
+      }
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$path": "src\\StarterGui"
+    },
+
+    "Lighting": {
+      "$properties": {
+        "Ambient": [0, 0, 0],
+        "Brightness": 0,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
